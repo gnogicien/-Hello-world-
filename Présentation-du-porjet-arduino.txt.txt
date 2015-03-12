@@ -1,0 +1,10 @@
+Distributeur de nourriture pour chat.
+
+Ce distributeur est un projet réalisé par le propriétaire de deux chats dont l'un était malade et l'autre bien portant.Le chat malade en question avait une consommation excessive de nourriture, ce  qui mettait sa santé en danger.
+Le concepteur du projet a donc eu l'idée de créér un apareil permettant de réguler la quantité de nourriture consommée par le chat malade tout en laissant le chat en bonne santé se nourrir convenablement.
+Le projet utilise une "arduino": une carte électronique programmable, conçue afin de réaliser certaines tâches conditionnelles ; un événement extérieur déclenche, par le biais de commandes ou de capteurs, un programme qui va, à son tour,lancer une série d'actions en commandant des moteurs ou divers composants électroniques extèrieurs à la carte.
+C'est ce que les automaticiens appellent couramment une API,Application Programming Interface ou interface d'application programmable.
+
+L'arduino permet donc d'ouvrir et fermer le distributeur de nourriture ; mais, pourqu'elle fonctionne comme on le souhaite, il lui faut un élément déclencheur pour l'ouverture de la gamelle et qui, de surcroit, doit différencier les deux chats.
+Pour ce faire, le concepteur a choisi de placer deux puces émettrices d'ondes électromagnétiques distinctes dans le collier de chacun de ces chats.
+Ainsi grâce a un capteur qui reçoit et différencie les deux signaux, l'arduino sait quel chat vient consommer dans la gamelle et bloque l'accès à la nourriture du chat malade en faisant coulisser un panneau au-dessus dela gamelle quand ce dernier cherche à se nourrir excessivement.
